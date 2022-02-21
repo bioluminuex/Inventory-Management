@@ -1,0 +1,380 @@
+body{
+background-color: #000000 ;
+height: 768px;
+width: 1366px;
+}
+
+input:disabled
+{
+  background-color: #F7F7F7;
+  opacity:0.2;
+}
+
+.heading-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.button-width{
+  width: 200px;
+}
+
+.left1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.left2 {
+  position: absolute;
+  top: 60%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.left3 {
+  position: absolute;
+  top: 70%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.left4 {
+  position: absolute;
+  top: 80%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.right1 {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.right2 {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.right3 {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.right4 {
+  position: absolute;
+  top: 80%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+
+.login{
+  position: relative;
+  top:225px;
+  left: 500px;
+  width: 35%;
+  padding: 5%;
+  border: 3px solid #0275d8;
+  border-radius: 15px;
+}
+
+.login-heading{
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.register{
+  position: relative;
+  top:110px;
+  left: 600px;
+  width: 25%;
+  border: 3px solid #0275d8;
+  border-radius: 10px;
+  padding: 1%
+}
+
+.register-heading{
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.add-new-component{
+  position: relative;
+  top:250px;
+  left: 240px;
+  width: 75%;
+  padding: 2.5%;
+  border: 3px solid #0275d8;
+  border-radius: 15px;
+}
+
+.add-comp-legends{
+  position: relative;
+  top:260px;
+  left: 240px;
+  width: 75%;
+  padding: 2.5%;
+  border: 3px solid #0275d8;
+  border-radius: 15px;
+}
+
+.add-comp-warning{
+  position: relative;
+  top:260px;
+  left: 240px;
+  width: 75%;
+  padding: 2.5%;
+  border: 3px solid #FF0000;
+  border-radius: 15px;
+}
+
+.add-new-component-heading{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.div-text-align-right{
+  text-align: right;
+}
+
+.purchase-list{
+  position: relative;
+  top:250px;
+  left: 250px;
+  width: 70%;
+  border: 3px solid #0275d8;
+}
+
+.purchase-list-heading{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.total-inventory{
+  position: relative;
+  top:250px;
+  left: 250px;
+  width: 70%;
+  border: 3px solid #0275d8;
+  padding:10px
+}
+
+
+.total-inventory-value{
+  border: 3px solid #0275d8;
+  border-radius: 5px
+}
+
+.total-inventory-heading{
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.total-inventory-value-div{
+  position:relative;
+  left:575px;
+}
+
+.locate-component{
+  position: relative;
+  top:150px;
+  left: 280px;
+  width: 70%;
+  border: 3px solid #0275d8;
+  padding:1%
+}
+
+.locate-component-heading{
+  position: absolute;
+  top: 7.5%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.user-management{
+  position: relative;
+  top:150px;
+  left: 280px;
+  width: 70%;
+  border: 3px solid #0275d8;
+}
+
+.user-management-heading{
+  position: absolute;
+  top: 7.5%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.backup{
+  position: relative;
+  top:150px;
+  left: 280px;
+  width: 70%;
+}
+
+
+.backup-heading{
+  color: #0275d8;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.check-out-confirmation-page{
+  position: relative;
+  top:150px;
+  left: 280px;
+  width: 70%;
+  border: 3px solid #0275d8;
+  padding: 1%
+}
+
+.check-out-confirmation-page-heading{
+  position: absolute;
+  top: 7.5%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.check-out-confirmation-page-paragraph{
+  color: #0275d8;
+  position: relative;
+  top:10%;
+  text-align: left;
+  font-size: 25px;
+}
+
+.edit-component{
+  position: relative;
+  top:100px;
+  left: 230px;
+  width: 75%;
+  border: 3px solid #0275d8;
+  padding-top: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%
+
+}
+
+.edit-component-heading{
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.edit-user{
+  position: relative;
+  top:110px;
+  left: 300px;
+  width: 70%;
+  border: 3px solid #0275d8;
+  padding: 1%
+}
+
+.edit-user-heading{
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.lend-or-supply{
+  position: relative;
+  top:150px;
+  left: 280px;
+  width: 75%;
+  border: 3px solid #0275d8;
+  padding: 1%
+}
+
+.lend-or-supply-heading{
+  position: absolute;
+  top: 7.5%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.user-history{
+  position: relative;
+  top:150px;
+  left: 280px;
+  width: 70%;
+  border: 3px solid #0275d8;
+}
+
+.user-history-heading{
+  position: absolute;
+  top: 7.5%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.user-side-locate-component{
+  position: relative;
+  top:150px;
+  left: 280px;
+  width: 70%;
+}
+
+.user-side-locate-component-heading{
+  position: absolute;
+  top: 7.5%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.user-side-user-history{
+  position: relative;
+  top:150px;
+  left: 280px;
+  width: 70%;
+  border: 3px solid #0275d8;
+  padding: 1.5%
+}
+
+.user-side-user-history-heading{
+  position: absolute;
+  top: 7.5%;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
